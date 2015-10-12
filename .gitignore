@@ -1,0 +1,12 @@
+/app/build
+/app/src/main/assets
+/build
+/gradle
+/gradlew
+
+
+*.gradle
+*.properties
+*.bat
+*.db
+*.iml

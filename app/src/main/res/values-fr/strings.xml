@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Easy List Maker</string>
+    <string name="list_name">Nom</string>
+    <string name="dialog_list_title">Créez la liste</string>
+    <string name="dialog_list_title_edit">Modifier la liste</string>
+    <string name="dialog_ask_for_price">Demander un prix?</string>
+    <string name="dialog_can_repeat_items">Autoriser éléments répétés?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="save">Sauver</string>
+    <string name="cancel">Annuler</string>
+    <string name="list_name_alert">Vous devez définir le nom de la liste!</string>
+    <string name="dialog_ask_for_price_title">Prix</string>
+    <string name="price">Prix:</string>
+    <string name="share">Partager</string>
+    <string name="edit">Éditer</string>
+    <string name="itemAlert">Cet article est sur votre liste!</string>
+    <string name="list_updated_alert">Liste mise à jour avec succès.</string>
+    <string name="send_to">Envoyer à</string>
+    <string name="signature">Liste créé et partagé par Easy List Maker application. Vous pouvez télécharger l\'application à http://goo.gl/pZnSK1</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1317473240104114/5976902385</string>
+    <string name="edit_item_name">Modifier nom</string>
+    <string name="edit_item_price">Modifier prix</string>
+    <string name="no_lists_created">Pas de listes créés.</string>
+    <string name="config_share">Préférences</string>
+    <string name="share_option">Partager</string>
+    <string name="show">Exposer</string>
+    <string name="checkboxes">Checkboxes</string>
+    <string name="showPrices">Les prix</string>
+    <string name="showTotal">Valeur totale</string>
+    <string name="showTitle">Nom de la liste</string>
+    <string name="save_and_share"><![CDATA[Sauver & Partager]]></string>
+    <string name="share_preferences">Configurations</string>
+
+    <string name="reminder">Définir rappel</string>
+    <string name="reminder_set">Rappel sauvé.</string>
+    <string name="alertMessage">Rappelez-vous votre liste nommée </string>
+    <string name="alertMessageTitle">Rappel des Easy List Maker</string>
+    <string name="alert">Salut, ne oubliez pas votre liste!</string>
+
+    <string name="rate">Évaluer!</string>
+    <string name="not_now">Pas maintenant</string>
+    <string name="never">Jamais</string>
+    <string name="rate_text">Salut! Je suis toujours essayer d\'améliorer cette application. Pour cela, je dois votre opinion sur Easy List Maker. Pouvez-vous s\'il vous plaît évaluer cette application?</string>
+    <string name="rating_preferences">Rating Preferences</string>
+</resources>

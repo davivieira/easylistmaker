@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="300dp"
+              android:layout_height="360dp"
+              android:layout_gravity="center">
+
+    <TextView
+        android:text="@string/show"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/green_action_bar"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/green_items"
+            android:textSize="20sp"
+            android:text="@string/checkboxes"
+            android:gravity="center|left"
+            android:layout_marginLeft="15dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"/>
+
+        <CheckBox
+            android:id="@+id/show_checkboxes"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/green_items"
+            android:textSize="20sp"
+            android:text="@string/showPrices"
+            android:gravity="center|left"
+            android:layout_marginLeft="15dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"/>
+
+        <CheckBox
+            android:id="@+id/show_prices"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/green_items"
+            android:textSize="20sp"
+            android:text="@string/showTotal"
+            android:gravity="center|left"
+            android:layout_marginLeft="15dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"/>
+
+        <CheckBox
+            android:id="@+id/show_total"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/green_items"
+            android:textSize="20sp"
+            android:text="@string/showTitle"
+            android:gravity="center|left"
+            android:layout_marginLeft="15dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"/>
+
+        <CheckBox
+            android:id="@+id/show_title"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save_share_config"
+            android:text="@string/save"
+            android:background="@color/green_action_bar"
+            android:textColor="@color/white"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/save_and_share_config"
+            android:text="@string/save_and_share"
+            android:background="@color/green_items"
+            android:textColor="@color/white"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/cancel_share_config"
+            android:text="@string/cancel"
+            android:background="@color/red"
+            android:textColor="@color/white"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

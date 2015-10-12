@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Easy List Maker</string>
+    <string name="list_name">名字</string>
+    <string name="dialog_list_title">创建列表</string>
+    <string name="dialog_list_title_edit">编辑列表</string>
+    <string name="dialog_ask_for_price">要价？</string>
+    <string name="dialog_can_repeat_items">允许重复的项目？</string>
+    <string name="yes">是啊</string>
+    <string name="no">不</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="list_name_alert">你必須設置列表中的名字！</string>
+    <string name="dialog_ask_for_price_title">项目价格</string>
+    <string name="price">价格:</string>
+    <string name="share">分享</string>
+    <string name="edit">编辑</string>
+    <string name="itemAlert">此产品是在您的名单！</string>
+    <string name="list_updated_alert">已成功更新列表。</string>
+    <string name="send_to">发送到...</string>
+    <string name="signature">列表中創建與來自EasyListMaker應用程序共享。 您可以在http://goo.gl/pZnSK1下載應用程序</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1317473240104114/5976902385</string>
+    <string name="edit_item_name">修改姓名</string>
+    <string name="edit_item_price">編輯價</string>
+    <string name="no_lists_created">不要有一個列表</string>
+    <string name="config_share">配置</string>
+    <string name="share_option">分享</string>
+    <string name="show">演出</string>
+    <string name="checkboxes">複選框</string>
+    <string name="showPrices">格</string>
+    <string name="showTotal">總價值</string>
+    <string name="showTitle">列表名稱</string>
+    <string name="save_and_share"><![CDATA[保存和分享]]></string>
+    <string name="share_preferences">配置</string>
+
+    <string name="reminder">設置一個提醒</string>
+    <string name="reminder_set">提醒已保存。</string>
+    <string name="alertMessage">記住你的列表 : </string>
+    <string name="alertMessageTitle">Easy List Maker Reminder</string>
+    <string name="alert">您好，盡量記住你的名單！</string>
+
+    <string name="rate">評定!</string>
+    <string name="not_now">現在不要</string>
+    <string name="never">從來沒有</string>
+    <string name="rate_text">嗨！我一直在努力改善這個程序。對於這一點，我需要你對EasyListMaker意見。能否請您評價這段程序？</string>
+    <string name="rating_preferences">Rating Preferences</string>
+</resources>

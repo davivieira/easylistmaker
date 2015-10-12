@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_gravity="center"
+              android:layout_width="300dp"
+              android:layout_height="300dp">
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:id="@+id/reminder_datePicker"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:layout_gravity="center_horizontal"/>
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:timePickerMode="spinner"
+        android:id="@+id/reminder_timePicker"
+        android:layout_gravity="center_horizontal"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/green_action_bar"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <ImageButton
+            android:id="@+id/cancel_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/cancel_icon"
+            android:text="@string/cancel"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right|center_vertical"/>
+
+        <ImageButton
+            android:id="@+id/confirm_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/confirm_icon"
+            android:text="@string/save"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:layout_alignBottom="@+id/dialog_header"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="left|center_vertical"/>
+    </FrameLayout>
+</LinearLayout>

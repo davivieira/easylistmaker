@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/res-auto"
+              xmlns:app="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/light_green">
+
+    <FrameLayout
+        android:id="@+id/action_bars_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+    </FrameLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:background="@color/light_green"
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        app:loadAdOnCreate="true"
+        app:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

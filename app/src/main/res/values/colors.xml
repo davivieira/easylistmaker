@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_action_bar">#43CD80</color>
+    <color name="light_green">#b1FFBE</color>
+    <color name="dark_green">#426F42</color>
+    <color name="green_items">#1E90FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#CD3333</color>
+</resources>

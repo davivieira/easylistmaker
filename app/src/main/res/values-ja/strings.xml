@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Easy List Maker</string>
+    <string name="list_name">名前</string>
+    <string name="dialog_list_title">リストを作成</string>
+    <string name="dialog_list_title_edit">編集リスト</string>
+    <string name="dialog_ask_for_price">販売人にご連絡下さい?</string>
+    <string name="dialog_can_repeat_items">繰り返し項目を許可しますか</string>
+    <string name="yes">はい</string>
+    <string name="no">いや</string>
+    <string name="save">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="list_name_alert">あなたは、リスト名を設定する必要があります！</string>
+    <string name="dialog_ask_for_price_title">商品価格</string>
+    <string name="price">プライス:</string>
+    <string name="share">共有するには</string>
+    <string name="edit">編集</string>
+    <string name="itemAlert">こちらの商品はあなたのリストに既にある!</string>
+    <string name="list_updated_alert">成功してリストを更新しました。</string>
+    <string name="send_to">へ送る...</string>
+    <string name="signature">リスト作成とEasyListMakerアプリから共有。あなたはhttp://goo.gl/pZnSK1でアプリをダウンロードすることができます</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1317473240104114/5976902385</string>
+    <string name="edit_item_name">編集名</string>
+    <string name="edit_item_price">編集価格</string>
+    <string name="no_lists_created">いいえリストが作成されません</string>
+
+    <string name="config_share">環境設定</string>
+    <string name="share_option">シェア</string>
+    <string name="show">見せる</string>
+    <string name="checkboxes">チェックボックス</string>
+    <string name="showPrices">物価</string>
+    <string name="showTotal">総価値</string>
+    <string name="showTitle">リストの名前</string>
+    <string name="save_and_share"><![CDATA[保存して共有する]]></string>
+    <string name="share_preferences">環境設定</string>
+
+    <string name="reminder">設定しリマインダー</string>
+    <string name="reminder_set">リマインダーは保存されました</string>
+    <string name="alertMessage">あなたのリストを覚えています : </string>
+    <string name="alertMessageTitle">Easy List Maker Reminder</string>
+    <string name="alert">こんにちは、あなたのリストを覚えている！</string>
+
+    <string name="rate">レートするには!</string>
+    <string name="not_now">今はやめろ</string>
+    <string name="never">決して</string>
+    <string name="rate_text">こんにちは！私はいつもこのアプリを改善しようとしています。そのために、私はEasyListMakerについてのあなたの意見を必要とします。あなたは、このアプリを評価していただけますか？</string>
+    <string name="rating_preferences">Rating Preferences</string>
+</resources>
